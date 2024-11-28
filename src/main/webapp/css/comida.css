@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:  #6fd19833;
+}
+
+header {
+    background-color: #15a148d2;
+    color: aliceblue;
+    height: auto;
+    width: 100%;
+}
+
+header .nav {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape {
+    background-color: #15a148d2;
+    color: white;
+    text-align: center;
+    align-content: center;
+    height: 30px;
+}
+
+form {
+    align-items: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.conteudo-restaurantes{
+flex: 1; 
+display: flex;
+flex-direction: column; 
+align-items: center;  
+margin: 40%;
+}
+
+.container-titulo{
+    font-size:xx-small;
+}
+.container-titulo a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.ImagemSushi{
+    border-radius: 5px;
+    margin: 20px 2px 2px 2px solid black;
+}
+.button {
+    background-color:  #15a148d2;
+    color: #010202d2;
+    border: none;
+    width: 90px;
+    border-radius: 6px;
+}
